@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.dji.sdk.sample">
+    package="com.dji.sdk.witechsample">
 
     <!-- SDK permission requirement -->
     <uses-permission android:name="android.permission.BLUETOOTH" />
@@ -46,13 +46,13 @@
         <!-- personal key -->
         <meta-data
             android:name="com.dji.sdk.API_KEY"
-            android:value="Please enter your App key here."/>
+            android:value="3e33dcf04c9b01bd26cec731"/>
         <!-- Required for receiving accessory attachment events.
             This is necessary for product when connecting over USB. -->
 
         <activity
             android:name="com.dji.sdk.sample.internal.controller.MainActivity"
-            android:label="@string/sample_app_name"
+            android:label="DJI SDK ROTATE SAMPLE"
             android:screenOrientation="portrait"
             android:launchMode="singleTop"
             android:configChanges="orientation|keyboardHidden|screenSize"
